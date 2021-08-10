@@ -121,11 +121,12 @@ main (int argc, char *argv[]) {
     int64_t input;
     //cin>>input;
     opts = BCON_NEW ("projection", "{",
-                     //"time", BCON_BOOL (true),
-                     // "lat", BCON_BOOL (true),
+                     "time", BCON_BOOL (true),
+                     "lat", BCON_BOOL (true),
+                     "longt", BCON_BOOL (true),
                      "clientId", BCON_BOOL (true),
                      "}");
-    //BSON_APPEND_DOUBLE(query, "lat", 1123.33913);
+
     //query = insert2;
     //cursor = mongoc_collection_find_with_opts(collection1, query, opts, NULL);
    // for (int i=-100; i<100; i++) {
@@ -147,20 +148,28 @@ main (int argc, char *argv[]) {
             bson_iter_t val;
             int64_t x;
 
+            //iterate thru data and (store them to c varibles in the future)
+
             if ( bson_iter_init(&iter2, doc) &&
                 bson_iter_find_descendant(&iter2, "clientId", &val) ) {
-                cout<< "value = " << bson_iter_utf8(&val,NULL) << endl;
+                cout<< "clientId = " << bson_iter_utf8(&val,NULL) << endl;
             }
 
             if ( bson_iter_init(&iter2, doc) &&
                 bson_iter_find_descendant(&iter2, "lat", &val) ) {
                 cout.precision(10);
-                cout<< "value = " << bson_iter_as_double(&val) << endl;
+                cout<< "lat = " << bson_iter_as_double(&val) << endl;
+            }
+
+            if ( bson_iter_init(&iter2, doc) &&
+                 bson_iter_find_descendant(&iter2, "lat", &val) ) {
+                cout.precision(10);
+                cout<< "longt = " << bson_iter_as_double(&val) << endl;
             }
 
             if ( bson_iter_init(&iter2, doc) &&
                 bson_iter_find_descendant(&iter2, "time", &val) ) {
-                cout<< "value = " << bson_iter_as_int64(&val) << endl;
+                cout<< "time = " << bson_iter_as_int64(&val) << endl;
             }
 
 
