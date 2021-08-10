@@ -1,0 +1,5 @@
+C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/CMakeFiles/ProjectWork1.dir
+C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/CMakeFiles/package.dir
+C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/CMakeFiles/package_source.dir
+C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

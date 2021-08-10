@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProjectWork1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Program Files (x86)\;CMake Files\..\..\..\..\Program Files (x86)\Project\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectWork1">
+				<Option output="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/ProjectWork1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMONGOC_STATIC"/>
+					<Add option="-DBSON_STATIC"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libmongoc-1.0"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libbson-1.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectWork1"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectWork1/fast">
+				<Option output="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/ProjectWork1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMONGOC_STATIC"/>
+					<Add option="-DBSON_STATIC"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libmongoc-1.0"/>
+					<Add directory="C:/Program Files (x86)/Project/include/libbson-1.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectWork1/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/richa/CLionProjects/ProjectWork1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/main.cpp">
+			<Option target="ProjectWork1"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/mongoc-1.0/mongoc-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/../../../../Program Files (x86)/Project/lib/cmake/bson-1.0/bson-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Program Files (x86)\Project\lib\cmake\bson-1.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
