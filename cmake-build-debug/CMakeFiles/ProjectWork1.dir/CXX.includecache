@@ -914,6 +914,8 @@ C:/Program Files (x86)/Project/include/libmongoc-1.0/mongoc/mongoc-stream-tls.h
 mongoc-ssl.h
 C:/Program Files (x86)/Project/include/libmongoc-1.0/mongoc/mongoc-ssl.h
 
+C:/Users/richa/CLionProjects/ProjectWork1/TTAprocessing.h
+
 C:/Users/richa/CLionProjects/ProjectWork1/main.cpp
 mongoc/mongoc.h
 -
@@ -929,4 +931,6 @@ random
 -
 windows.h
 -
+TTAprocessing.h
+C:/Users/richa/CLionProjects/ProjectWork1/TTAprocessing.h
 

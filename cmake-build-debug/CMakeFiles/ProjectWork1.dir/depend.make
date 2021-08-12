@@ -76,5 +76,6 @@ CMakeFiles/ProjectWork1.dir/main.cpp.obj: C:/Program\ Files\ (x86)/Project/inclu
 CMakeFiles/ProjectWork1.dir/main.cpp.obj: C:/Program\ Files\ (x86)/Project/include/libmongoc-1.0/mongoc/mongoc-version.h
 CMakeFiles/ProjectWork1.dir/main.cpp.obj: C:/Program\ Files\ (x86)/Project/include/libmongoc-1.0/mongoc/mongoc-write-concern.h
 CMakeFiles/ProjectWork1.dir/main.cpp.obj: C:/Program\ Files\ (x86)/Project/include/libmongoc-1.0/mongoc/mongoc.h
+CMakeFiles/ProjectWork1.dir/main.cpp.obj: ../TTAprocessing.h
 CMakeFiles/ProjectWork1.dir/main.cpp.obj: ../main.cpp
 
