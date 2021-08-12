@@ -108,6 +108,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/TTAprocessing.h">
+			<Option target="ProjectWork1"/>
+		</Unit>
 		<Unit filename="C:/Users/richa/CLionProjects/ProjectWork1/main.cpp">
 			<Option target="ProjectWork1"/>
 		</Unit>
