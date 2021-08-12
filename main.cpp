@@ -91,7 +91,6 @@ main (int argc, char *argv[]) {
         }*/
 
 
-
     query = bson_new();
     char *confirmedClient;
     cout<<"Key in clientId of confirmed case: ";
