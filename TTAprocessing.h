@@ -1,34 +1,27 @@
 using namespace std;
 namespace TTA
 {
-    const char *uri_string = "mongodb://34.126.108.92:27017";
-    mongoc_uri_t *uri;
-    mongoc_client_t *client;
-    mongoc_database_t *database;
-    mongoc_collection_t *collection1, *collection2, *collection3;
-    bson_t *command, reply, *insert;
-    bson_error_t error;
-    char *str;
-    mongoc_cursor_t *cursor;
-    const bson_t *doc;
-    bson_t *query, *opts;
+
 
 
     class TTAP
     {
     public:
-        bool static timeContact(int t1, int t2) {
-            if(abs(t1-t2)<=259200) return true;
+        bool static timeContact(int time1, int time2) {
+            if(abs(time1-time2)<=259200) return true;
             else return false;
         }
-        bool static latContact(double x1, double x2){
-            if(abs(x1-x2)<=0.002) return true;
+        bool static latContact(double lat1, double lat2){
+            if(abs(lat1-lat2)<=0.002) return true;
             else return false;
         }
-        bool static longtContact(double x1, double x2){
-            if(abs(x1-x2)<=0.002) return true;
+        bool static longtContact(double longt1, double longt2){
+            if(abs(longt1-longt2)<=0.002) return true;
             else return false;
-
+        }
+        bool static sameClient(const char *clientId1, const char *clientId2){
+            if(clientId1==clientId2) return true;
+            else return false;
         }
     };
 
