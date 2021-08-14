@@ -2,8 +2,6 @@ using namespace std;
 namespace TTA
 {
 
-
-
     class TTAP
     {
     public:
